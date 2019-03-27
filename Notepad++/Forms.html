@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DID XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtmll/DID/xhtmll-transitional.dtd">
+<html>
+<head>
+<title> Forms </title>
+</head>
+
+<head>
+	<style type="text/css">
+body {background-color:lavender; 
+	color:blue;}	
+	th {text-align:center;}
+	h1 {background-color:pink; padding:5px; padding-top:20px; padding-bottom:20px;
+	color:green;text-align:center;
+	margin:0px;}
+	h2 {color:blue;font-family:arial; background-color: yellow; width:350px;}
+	h3 {color:green;)
+	p {text-aligh:center;}
+	a:hover {background-color:green; color:white; font-style:italic;}
+	table {border: 3px solid blue;}
+	tr {background-color:orange;}
+	td {border: 2px dashed green;}
+	#homepage {font-family:arial;
+			background-color:green;
+			border:2px solid green;
+			position:absolute;
+			left:200px; right: 50%;} 
+		p > a {color:red; font-size:30px;}
+	.submit {indent:25px;}
+	
+	
+			
+	
+	
+	
+	
+	</style>
+	 <!-- up here, this is css and I used it for text color, on h1 and h2 in the body -->
+	 <!-- It's not working-->
+</head>
+
+<body>
+
+<!-- created this on the 15th of October, 2018 --->
+<h1> Rib Crackers Forms Are Available Here For You To Fill For Different Purposes</h1>
+<img src="rib.png" height="132"/> 
+	<ol> <!-- this is use to create an order list eg, 1. 2. 3 with <li> btw the words> --->
+	</br>
+	<h3 class="homepage"> <a href="HomePage.html"> Home Page </a> </h3>
+</br> <a href="#form"> <h2> <li> Event Booking </li> </h2>
+</br> <a href="#form"> <h2> <li> Registration form </li> </h2>
+</br> <a href="#partnership"> <h2> <li> Partnership form </li> </h2> </a>
+		</ol>
+		
+<hr /> <!-- I used this to rule a line btw -->
+
+<!-- created tis on the 28 of October, 2018 -->
+			<ul> <!-- I used this to make a pullet point close tag with </ul> with <li>, meaning list btw the words and close tag </li> --->
+</br> <p/> 
+<h2> <li>Example on how you should fill the form;</li> </h2>
+			</ul>
+<table>
+		<tr> 
+		<th> NAME <td> Your Name. e.g, Rib Crakers </td> </th>
+		</tr>
+		<tr>
+		<th> EMAIL ADDRESS <td> Your Email. e.g, ribcrackerscomedy7@gmail.com </td> </th>
+		</tr>
+		<th> PHONE NUMBER <td> Your number e.g, +234.... </td></th>
+		</tr>
+		<tr>
+	<th> A SHORT NOTE <td> State the reason on which you are filling this form. e.g, I am filling this partnership form because I want to partner with your crew </td> </th>
+	</tr>
+	</table>
+	
+	<p>
+	<table border="2" cellpadding="10"> <!-- i used this to create space btw the text and the border--->
+		<tr> 
+		<th> NAME </th> 
+		<th> Rib Crakers </th>
+		<th> Your Name </th> 
+		<th> Rib Crakers </th>
+		
+		</tr>
+		
+		<tr>
+		<td> EMAIL ADDRESS </td>
+		<td>ribcrackerscomedy7@gmail.com </td>
+		<td>Your Email.</td>
+		<td>ribcrackerscomedy7@gmail.com </td> 
+		</tr>
+		
+		<tr>
+		<td> PHONE </td>
+		<td> EMAIL ADDRESS </td> 
+		<td> Your Email.</td>
+		<td>ribcrackerscomedy7@gmail.com </td> 
+	</tr>
+	
+		<td> PHONE </td>
+		<td> EMAIL ADDRESS </td> 
+		<td> Your Email.</td>
+		<td>ribcrackerscomedy7@gmail.com </td>
+		</tr>
+		
+		<td> PHONE </td>
+		<td> EMAIL ADDRESS </td> 
+		<td> Your Email.</td>
+		<td>ribcrackerscomedy7@gmail.com </td>
+		</tr>
+		
+		</table>
+	</p>
+	<hr/>
+			<ul><!-- I used this to make a pullet point close tag with </ul> with <li>, meaning list btw the words and close tag </li> --->
+	<h2> <a name="partnership"> </a> <li> Partnership </li> </h2>
+	
+			</ul>
+	<table border="5"width="50%" cellpadding="10" > <!-- i used this to create space btw the text and the border--->
+		<tr>
+		<th colspan="2"> <h3> WHY YOU SHOULD PARTNER WITH US </h3> </th> <!-- this colspan is used to make a whole subject in a table --->
+	</tr>
+		<tr>
+		<th> We Accept To Partner With You </th>
+		<th> We Make Parnership Proposal </th>
+		</tr>
+		
+		<tr>
+		<td> we accept partnership from others in order to make the whole world get to know both parties. </td>
+		<td> We do propose to partner with other teams. </td>
+	</tr>
+		
+		<tr>
+		<td> We will always invite you to our parties and Occation to perform. </td>
+		<td> We accept to learn and grow with others effort. </td>
+		</tr>
+	</table>
+ 	
+	</br> <p>
+	<form action="process.php" method="post">
+	 <h2> <a name="form">FILL FORM </a> </h2>
+	<strong> Full Name: <div id"namebox><INPUT type="text" name="fullname" size="50" maxlength="40"/> </div></br> 
+	Email Address: <div id"emailbox><input type="text" address="emailadress" size="50" /> </div> </br>
+	Phone Number: <div id"phonebox"><input type="text" address="phonenumber" size="50" maxlength="20" value="Phone Number. Eg, +234..."/> </div> </br>
+		<input type="radio" name="gender" value="Male"/> Male 
+		<input type="radio" name="gender" value="Female"/> Female 
+		</p> <select name="booking">
+		<option> Event Booking </option>
+		<option> Registration </option>
+		<option> Partnership </option>
+		</select> </br>
+		<p> Country <select name="countries">
+		<option> Nigeria </option>
+		<option> Ghana </option>
+		<option> liberia </option>
+		<option> South Africa </option>
+		<option> Togo </option>
+		<option> Benin </option>
+		</select> </p>
+		<p> Please write a short note on the main reason<br/>why you are filling this form.</p>
+		 <textarea cols="30" rows="8"></textarea>
+		 <p> <input type="submit" value="Send"> <input type="reset" Value="Reset"> </strong>
+		
+		</form>
+		</p>
+		
+		<table border="1px">
+		<tr>
+		 <td> nkdnklednlndnl </td>
+		</tr>
+		
+		 </table >
+		
+		<p> </br> </p>
+		<hr/> <!-- a line is drew here-->	
+		<h2> Sign Up </h2>
+		<FORM action="processa.php" method="post">
+		</p> </br>
+		Username: <input type="text" name="username" maxlength="100" />
+			<p>
+	    Password: <input type="password" name="pass" maxlength="20" />
+		
+		<p> <input type="submit" value="login"/> </p>
+		
+		</form>
+		
+		</br>
+		
+		ddd jsjsjsjs jjsjs 
+<p> <a href="mailto:ribcrackerscomedy7@gmail.com"> <h2>Email us</h2> </a> </p>
+
+</body>
+
+</html> 
